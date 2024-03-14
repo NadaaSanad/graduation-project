@@ -10,9 +10,10 @@
 
 int main(void)
 {
-	DDRA=&(1<<2);
+	SET_BIT(DDRA,3);
     while (1) 
     {
+		
     }
 }
 

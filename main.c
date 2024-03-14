@@ -11,9 +11,11 @@
 int main(void)
 {
 	SET_BIT(DDRA,3);
+	
     while (1) 
     {
-		
+			SET_BIT(PORTA,3);
+
     }
 }
 
